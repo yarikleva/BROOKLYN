@@ -1,0 +1,104 @@
+/*Positioning*/
+/*Display & Box Model*/
+/*Color*/
+/*Text*/
+/*Other*/
+.hero-inner {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 180px;
+    margin-top: 89px;
+}
+
+.hero-inner-hashtag {
+    position: absolute;
+    top: 328px;
+    left: 54px;
+    display: flex;
+    gap: 40px;
+    transform: rotate(-90deg);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 175%;
+    letter-spacing: 0.72px;
+}
+
+.hero-inner__content {
+    width: 453px;
+}
+
+.hero-inner__subtitle {
+    margin-bottom: 8px;
+    font-family: Cormorant Upright, sans-serif;
+    font-variant-numeric: lining-nums tabular-nums;
+    text-transform: capitalize;
+    font-size: 23px;
+    font-weight: 700;
+    line-height: 130%;
+    letter-spacing: 0.92px;
+}
+
+.spoon_reverse svg{
+    transform: rotate(180deg);
+}
+
+.hero-inner__title {
+    margin-top: 8px;
+    margin-bottom: 32px;
+    color: var(--gold);
+    font-family: Cormorant Upright, sans-serif;
+
+    text-transform: capitalize;
+    font-size: 90px;
+    font-weight: 700;
+    line-height: 130%;
+    letter-spacing: 3.6px;
+}
+
+.hero-inner__text {
+    margin-bottom: 32px;
+    color: var(--grey);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 175%;
+    letter-spacing: 0.64px;
+}
+
+.hero-inner__link {
+    padding: 8px 32px;
+    background: var(--gold);
+    color: var(--black);
+    font-family: Cormorant Upright, sans-serif;
+    font-weight: 700;
+    line-height: 175%; /* 28px */
+    letter-spacing: 0.64px;
+}
+
+.hero-inner__photo {
+    position: relative;
+}
+
+.hero-inner__square1 {
+    position: absolute;
+    z-index: -1;
+    top: -30px;
+    right: -30px;
+    width: 435px;
+    height: 435px;
+    background-image: url('../images/hero-square1.jpg');
+    background-repeat: no-repeat;
+}
+
+.hero-inner__square2 {
+    position: absolute;
+    z-index: -1;
+    bottom: -30px;
+    left: -30px;
+    width: 435px;
+    height: 435px;
+    background-image: url('../images/hero-square2.jpg');
+    background-repeat: no-repeat;
+}
+

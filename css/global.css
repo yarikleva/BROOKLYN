@@ -1,0 +1,90 @@
+*,
+*::before,
+*::after {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+:root {
+    --gold: #DCCA87;
+    --grey: #AAA;
+    --white: #ffffff;
+    --translucent: rgba(255, 255, 255, 0.10);
+    --black: #0C0B08;
+}
+
+body {
+    background-color: var(--black);
+    font-family: Open Sans, sans-serif;
+    color: var(--white);
+    margin: 0;
+    padding: 0;
+
+}
+
+
+::selection {
+    color: var(--white);
+}
+
+
+img {
+    display: block;
+    height: auto;
+}
+
+html {
+    scroll-behavior: smooth;
+
+}
+
+.list {
+    list-style: none;
+    margin: 0;
+}
+
+.link {
+    text-decoration: none;
+    margin: 0;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+p {
+    padding: 0;
+    margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    color: var(--white);
+    cursor: pointer;
+    text-decoration: none;
+}
+
+
+button{
+    cursor: pointer;
+    border: none;
+    display: block;
+}
+
+
+.container {
+    padding: 0 120px;
+    margin: auto;
+    width: 100%;
+    position: relative;
+}
+
+
+.title{
+    font-family: 'Cormorant Upright', serif;
+}
