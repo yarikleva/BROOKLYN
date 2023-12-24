@@ -1,33 +1,26 @@
-.header-inner{
-    margin: 32px 0;
+.header-inner {
+    padding: 32px 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.bar-vector1 {
-    position: absolute;
-    top: 0;
-    right: -30px;
+body {
     z-index: 0;
-    background-image: url("../images/bar-vector1.png");
-    background-repeat: no-repeat;
-    width: 100%;
-    height: 100%;
+    height: 100vh;
+    background-image:
+            url("../images/bar-vector1.png"),
+            url("../images/bar-vector2.png");
+    background-position:
+            top right,
+            top 115px left;
+    background-repeat:
+            no-repeat,
+            no-repeat;
 }
 
-.bar-vector2 {
-    position: absolute;
-    top: 75px;
-    left: 0;
-    z-index: 0;
-    background-image: url("../images/bar-vector2.png");
-    background-repeat: no-repeat;
-    width: 100%;
-    height: 100%;
-}
 
-.header-inner__logo{
+.header-inner__logo {
     font-family: 'Cormorant Upright', sans-serif;
     font-size: 44px;
     line-height: 57.2px;
@@ -35,12 +28,12 @@
     letter-spacing: 1.76px;
 }
 
-.menu-list{
+.menu-list {
     display: flex;
     gap: 32px;
 }
 
-.menu-list__link{
+.menu-list__link {
     letter-spacing: 0.64px;
 }
 
@@ -55,6 +48,6 @@ svg.menu-widget__stick {
     stroke: var(--white);
 }
 
-.menu-widget__phone-number{
+.menu-widget__phone-number {
     font-weight: 400;
 }

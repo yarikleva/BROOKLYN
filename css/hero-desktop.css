@@ -9,6 +9,7 @@
     justify-content: center;
     align-items: center;
     gap: 180px;
+    padding-bottom: 244px;
     margin-top: 89px;
 }
 
@@ -40,7 +41,7 @@
     letter-spacing: 0.92px;
 }
 
-.spoon_reverse svg{
+.spoon_reverse svg {
     transform: rotate(180deg);
 }
 
@@ -76,29 +77,15 @@
     letter-spacing: 0.64px;
 }
 
-.hero-inner__photo {
-    position: relative;
+
+
+.hero-inner__img {
+    padding: 30px;
+    background:url('../images/hero-square1.jpg') no-repeat top right,
+    url('../images/hero-square2.jpg') no-repeat bottom left;
+    background-size: 50% 50%;
 }
 
-.hero-inner__square1 {
-    position: absolute;
-    z-index: -1;
-    top: -30px;
-    right: -30px;
-    width: 435px;
-    height: 435px;
-    background-image: url('../images/hero-square1.jpg');
-    background-repeat: no-repeat;
-}
 
-.hero-inner__square2 {
-    position: absolute;
-    z-index: -1;
-    bottom: -30px;
-    left: -30px;
-    width: 435px;
-    height: 435px;
-    background-image: url('../images/hero-square2.jpg');
-    background-repeat: no-repeat;
-}
+
 
