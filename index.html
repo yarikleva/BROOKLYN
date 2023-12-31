@@ -10,7 +10,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@300&family=Roboto+Slab:wght@600&display=swap"
           rel="stylesheet">
-
+    <link rel="stylesheet"
+          href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
     <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
@@ -54,7 +55,7 @@
             </div>
         </div>
         <div class="hero-inner__content">
-            <div class="hero-inner__subtitle">
+            <div class="sample-subtitle">
                 Chase the new Flavour
             </div>
             <div class="spoon spoon_reverse">
@@ -80,37 +81,137 @@
 <section class="hookah">
     <div class="hookah-inner">
         <div class="hookah-inner__content1">
-            <div class="hookah-inner__title">About Us</div>
+            <h2 class="sample-title">About Us</h2>
             <div class="spoon">
                 <svg width="71px" height="16px">
                     <use href="images/icons.svg#icon-spoon"></use>
                 </svg>
             </div>
-            <div class="hookah-inner__text">
+            <div class="sample-text">
                 Located in the heart of the city, our bar is the perfect spot to unwind and enjoy a drink with
                 friends.At BROOKLYN, we take pride in offering a wide selection of beers, wines, and cocktails. Our
                 expert bartenders are always on hand to help you choose the perfect drink to suit your taste.
             </div>
-            <div class="hookah-inner__link">Know More</div>
+            <a href="#" class="sample-link">Know More</a>
         </div>
 
         <img src="images/hookah-logo.png" alt="" class="hookah-inner__logo">
         <img src="images/hookah.png" alt="" class="hookah-inner__photo">
         <div class="hookah-inner__content2">
-            <div class="hookah-inner__title">Our History</div>
+            <h2 class="sample-title">Our History</h2>
             <div class="spoon spoon_reverse">
                 <svg width="71px" height="16px">
                     <use href="images/icons.svg#icon-spoon"></use>
                 </svg>
             </div>
-            <div class="hookah-inner__text">
+            <div class="sample-text">
                 In addition to our drinks, we also offer a delicious food menu. From classic bar snacks to hearty mains,
                 we have something for everyone. Our kitchen uses only the freshest ingredients to create dishes that are
                 sure to satisfy. Whether you're looking for a place to catch up with friends or to celebrate a special.
             </div>
-            <div class="hookah-inner__link">Know More</div>
+            <a href="#" class="sample-link">Know More</a>
         </div>
     </div>
 </section>
+
+<section class="video">
+    <video class="video" width="100%" height="100%" controls="" autoplay="" loop="" muted="">
+        <source src="" type="video/mp4">
+    </video>
+</section>
+
+<section class="navigation">
+    <div class="navigation-inner">
+        <a href="#" class="navigation-inner__link">Bar Menu</a>
+
+        <svg width="3px" height="32px">
+            <use href="images/icons.svg#icon-navigation-border1"></use>
+        </svg>
+
+        <a href="#" class="navigation-inner__link">Food Menu</a>
+
+        <svg width="3px" height="32px">
+            <use href="images/icons.svg#icon-navigation-border2"></use>
+        </svg>
+
+        <a href="#" class="navigation-inner__link">hookahs Menu</a>
+    </div>
+</section>
+
+<section class="gallery">
+    <div class="gallery-wrapper">
+        <div class="gallery-inner">
+            <div class="gallery-inner__content">
+                <div class="sample-subtitle">Instagram</div>
+                <div class="spoon spoon_reverse">
+                    <svg width="71px" height="16px">
+                        <use href="images/icons.svg#icon-spoon"></use>
+                    </svg>
+                </div>
+                <h2 class="sample-title">Photo Gallery</h2>
+                <p class="sample-text">
+                    So why wait? Come and experience BROOKLYN for yourself. We can't wait to see you!
+                </p>
+                <a href="#" class="sample-link">View More</a>
+            </div>
+            <div class="swiper gallery-swiper">
+                <div class="swiper-wrapper ">
+                    <div class="gallery-swiper-slide swiper-slide">
+                        <img src="images/gallery-slide1.jpg" alt="" class="swiper-slide__photo">
+                    </div>
+                    <div class="gallery-swiper-slide swiper-slide">
+                        <img src="images/gallery-slide2.jpg" alt="" class="swiper-slide__photo">
+                    </div>
+                    <div class="gallery-swiper-slide swiper-slide">
+                        <img src="images/gallery-slide3.jpg" alt="" class="swiper-slide__photo">
+                    </div>
+                    <div class="gallery-swiper-slide swiper-slide">
+                        <img src="images/gallery-slide4.jpg" alt="" class="swiper-slide__photo">
+                    </div>
+                    <div class="gallery-swiper-slide swiper-slide">
+                        <img src="images/gallery-slide5.jpg" alt="" class="swiper-slide__photo">
+                    </div>
+                </div>
+
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="questions">
+    <div class="questions-inner">
+        <div class="questions-content">
+            <div class="sample-subtitle">Instagram</div>
+            <div class="spoon spoon_reverse">
+                <svg width="71px" height="16px">
+                    <use href="images/icons.svg#icon-spoon"></use>
+                </svg>
+            </div>
+            <div class="sample-title">questions remain?</div>
+            <p class="sample-text sample-text_retreat">And never miss latest Updates!</p>
+            <form action="" autocomplete="on" class="questions-form">
+
+                <label class="questions-form__item-label" for="name">Ім'я</label>
+                <input id="name" class="questions-form__item-input" type="text" placeholder="Введіть ім'я">
+                <label class="questions-form__item-label" for="email">Почта</label>
+                <input id="email" class="questions-form__item-input " type="email" placeholder="Адреса електронної пошти">
+                <label class="questions-form__item-label" for="phone">Телефон</label>
+                <input id="phone" class="questions-form__item-input " type="tel" placeholder="Телефон">
+                <label class="questions-form__item-label" for="message">Повідомлення</label>
+                <textarea id="message"class="questions-form__item-input " cols="30" rows="10" placeholder="Повідомлення"></textarea>
+                <button class="sample-link" type="submit">Надіслати</button>
+            </form>
+        </div>
+    </div>
+</section>
+
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="js/gallery-swiper.js"></script>
+
+
 </body>
 </html>

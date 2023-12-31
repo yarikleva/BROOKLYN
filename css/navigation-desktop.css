@@ -1,0 +1,28 @@
+.navigation-inner {
+    display: flex;
+    align-items: center;
+    height: 900px;
+    margin-bottom: 143px;
+    background-image: url("../images/navigation-background.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.navigation-inner__link {
+    flex: 1;
+    width: 209px;
+    color: var(--white);
+    text-align: center;
+    font-variant-numeric: lining-nums tabular-nums;
+    font-family: Cormorant Upright, sans-serif;
+    font-size: 64px;
+    font-weight: 600;
+    line-height: 130%; /* 83.2px */
+    letter-spacing: 1.92px;
+    text-transform: capitalize;
+}
+
+
+
+

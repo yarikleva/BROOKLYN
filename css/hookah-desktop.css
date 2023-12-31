@@ -28,7 +28,7 @@
     width: 523px;
 }
 
-.hookah-inner__title {
+.sample-title {
     margin-bottom: 8px;
     color: var(--gold);
     font-variant-numeric: lining-nums tabular-nums;
@@ -40,7 +40,7 @@
     text-transform: capitalize;
 }
 
-.hookah-inner__text {
+.sample-text {
     margin: 32px 0;
     color: var(--grey);
     font-weight: 400;
@@ -48,7 +48,7 @@
     letter-spacing: 0.64px;
 }
 
-.hookah-inner__link {
+.sample-link {
     display: inline-block;
     padding: 8px 32px;
     background: var(--gold);

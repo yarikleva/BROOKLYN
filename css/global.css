@@ -30,8 +30,20 @@ body {
 
 
 img {
+
+
+}
+
+img,
+picture {
     display: block;
+    shape-margin: 0.75rem;
+    max-width: 100%;
     height: auto;
+    font-style: italic;
+    vertical-align: middle;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 html {

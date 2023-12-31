@@ -1,0 +1,39 @@
+.gallery{
+    background: url("../images/hookah-background.jpg") no-repeat center center;
+    background-size: cover;
+}
+
+.gallery-inner {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 64px;
+    width: 1371.5px;
+    margin-left: auto;
+    padding: 237px 0;
+}
+
+.gallery-inner__content {
+    width: 491px;
+}
+
+.gallery-swiper {
+    width: 999px;
+}
+
+.gallery-swiper-slide {
+    max-width: 301px;
+}
+
+.swiper-slide__photo {
+    width: 100%;
+}
+
+.swiper-button-prev::after,
+.swiper-button-next {
+    color: var(--black);
+}
+
+
+
+
