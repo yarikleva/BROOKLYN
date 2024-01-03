@@ -9,8 +9,10 @@
     --grey: #AAA;
     --grey2: #272727;
     --white: #ffffff;
+    --white2: #F5EFDB;
     --translucent: rgba(255, 255, 255, 0.10);
     --black: #0C0B08;
+    --black2: #0C0C0C;
 }
 
 body {
