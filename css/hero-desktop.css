@@ -50,7 +50,6 @@
     margin-bottom: 32px;
     color: var(--gold);
     font-family: Cormorant Upright, sans-serif;
-
     text-transform: capitalize;
     font-size: 90px;
     font-weight: 700;
@@ -61,23 +60,10 @@
 .hero-inner__text {
     margin-bottom: 32px;
     color: var(--grey);
-    font-size: 16px;
     font-weight: 400;
     line-height: 175%;
     letter-spacing: 0.64px;
 }
-
-.hero-inner__link {
-    padding: 8px 32px;
-    background: var(--gold);
-    color: var(--black);
-    font-family: Cormorant Upright, sans-serif;
-    font-weight: 700;
-    line-height: 175%; /* 28px */
-    letter-spacing: 0.64px;
-}
-
-
 
 .hero-inner__img {
     padding: 30px;
