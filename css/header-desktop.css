@@ -33,10 +33,11 @@ body {
 
 .menu-list {
     display: flex;
-    gap: 32px;
+    gap: 22px;
 }
 
 .menu-list__link {
+    padding: 10px;
     font-weight: 400;
     line-height: 175%; /* 28px */
     letter-spacing: 0.64px;
@@ -45,11 +46,12 @@ body {
 .menu-widget {
     display: flex;
     align-items: center;
-    gap: 50px;
+    gap: 40px;
     font-weight: 600;
 }
 
 .menu-widget__lang{
+    padding: 10px;
     font-weight: 400;
     line-height: 175%; /* 28px */
     letter-spacing: 0.8px;
@@ -61,6 +63,7 @@ svg.menu-widget__stick {
 }
 
 .menu-widget__phone-number {
+    padding: 10px;
     font-weight: 400;
     line-height: 175%; /* 28px */
     letter-spacing: 0.64px;

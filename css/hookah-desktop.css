@@ -10,7 +10,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 66px;
+    padding: 66px 0;
     background: url("../images/hookah-background.jpg") no-repeat center center;
     background-size: cover;
 }
@@ -40,8 +40,12 @@
     text-transform: capitalize;
 }
 
+.sample-title_indentation {
+    margin-bottom: 32px;
+}
+
 .sample-text {
-    margin: 32px 0;
+    margin-bottom: 32px;
     color: var(--grey);
     font-weight: 400;
     line-height: 175%; /* 28px */
@@ -60,10 +64,15 @@
     letter-spacing: 0.64px;
 }
 
+.hookah-inner__img {
+    position: relative;
+}
+
 .hookah-inner__logo {
     position: absolute;
+    left: 163px;
+    bottom: 180px;
     z-index: -1;
-
 }
 
 .hookah-inner__photo {

@@ -24,6 +24,13 @@
 }
 
 .location-form__item-input {
+    color: var(--grey);
+    width: 100%;
+    margin-bottom: 32px;
+    padding: 16.5px 31px;
+    background-color: var(--black2);
+    border: 1px solid var(--white);
+    outline: none;
     font-variant-numeric: lining-nums tabular-nums;
     font-family: Cormorant Upright, sans-serif;
     font-size: 16px;
@@ -31,12 +38,10 @@
     line-height: 175%; /* 28px */
     letter-spacing: 0.64px;
     text-transform: capitalize;
-    color: var(--grey);
-    width: 100%;
-    margin-bottom: 32px;
-    padding: 16.5px 31px;
-    background-color: var(--black2);
-    border: 1px solid var(--white);
+}
+
+.location-form__item-label_width {
+    resize: none;
 }
 
 .location-inner__container2 {
@@ -67,3 +72,7 @@
     bottom: -80px;
     transform: scale(4.5625);
 }
+
+
+
+

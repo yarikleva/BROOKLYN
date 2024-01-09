@@ -9,8 +9,8 @@
     justify-content: center;
     align-items: center;
     gap: 180px;
-    padding-bottom: 244px;
-    margin-top: 89px;
+    margin: 89px 0 244px 0;
+
 }
 
 .hero-inner-hashtag {
@@ -41,12 +41,19 @@
     letter-spacing: 0.92px;
 }
 
+.spoon {
+    margin-bottom: 8px;
+}
+
 .spoon_reverse svg {
     transform: rotate(180deg);
 }
 
+.spoon_indentation {
+    margin-bottom: 32px;
+}
+
 .hero-inner__title {
-    margin-top: 8px;
     margin-bottom: 32px;
     color: var(--gold);
     font-family: Cormorant Upright, sans-serif;

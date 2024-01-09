@@ -19,7 +19,7 @@
 <header class="header">
     <div class="container">
         <div class="header-inner">
-            <div class="header-inner__logo">BROOKLYN</div>
+            <a href="#" class="header-inner__logo">BROOKLYN</a>
             <nav class="menu">
                 <ul class="menu-list">
                     <li class="menu-list__item">
@@ -34,10 +34,8 @@
                 </ul>
             </nav>
             <div class="menu-widget">
-                <a href="#" class="menu-widget__lang">UA / EN</a>
-                <svg class="menu-widget__stick" width="1px" height="32px">
-                    <use href="images/icons.svg#icon-menu-widget-stick"></use>
-                </svg>
+                <a href="#" class="menu-widget__lang">EN</a>
+                <img src="images/header-stick.jpg" alt="" class="menu-widget__stick">
                 <a href="tel:+380960388338" class="menu-widget__phone-number">+380 96 0388 338</a>
             </div>
         </div>
@@ -82,7 +80,7 @@
     <div class="hookah-inner">
         <div class="hookah-inner__content1">
             <h2 class="sample-title">About Us</h2>
-            <div class="spoon">
+            <div class="spoon  spoon_indentation">
                 <svg width="71px" height="16px">
                     <use href="images/icons.svg#icon-spoon"></use>
                 </svg>
@@ -94,11 +92,13 @@
             </div>
             <a href="#" class="sample-link">Know More</a>
         </div>
-        <img src="images/hookah-logo.png" alt="" class="hookah-inner__logo">
-        <img src="images/hookah.png" alt="" class="hookah-inner__photo">
+        <div class="hookah-inner__img">
+            <img src="images/hookah-logo.png" alt="" class="hookah-inner__logo">
+            <img src="images/hookah.png" alt="" class="hookah-inner__photo">
+        </div>
         <div class="hookah-inner__content2">
             <h2 class="sample-title">Our History</h2>
-            <div class="spoon spoon_reverse">
+            <div class="spoon spoon_reverse spoon_indentation">
                 <svg width="71px" height="16px">
                     <use href="images/icons.svg#icon-spoon"></use>
                 </svg>
@@ -122,13 +122,9 @@
 <section class="navigation">
     <div class="navigation-inner">
         <a href="#" class="navigation-inner__link">Bar Menu</a>
-        <svg width="3px" height="32px">
-            <use href="images/icons.svg#icon-navigation-border1"></use>
-        </svg>
+        <img src="images/navigation__big-stick.png" alt="" class="navigation__big-stick">
         <a href="#" class="navigation-inner__link">Food Menu</a>
-        <svg width="3px" height="32px">
-            <use href="images/icons.svg#icon-navigation-border2"></use>
-        </svg>
+        <img src="images/navigation__big-stick.png" alt="" class="navigation__big-stick">
         <a href="#" class="navigation-inner__link">hookahs Menu</a>
     </div>
 </section>
@@ -142,32 +138,30 @@
                     <use href="images/icons.svg#icon-spoon"></use>
                 </svg>
             </div>
-            <h2 class="sample-title">Photo Gallery</h2>
+            <h2 class="sample-title sample-title_indentation">Photo Gallery</h2>
             <p class="sample-text">
                 So why wait? Come and experience BROOKLYN for yourself. We can't wait to see you!
             </p>
             <a href="#" class="sample-link">View More</a>
         </div>
         <div class="swiper gallery-swiper">
-            <div class="swiper-wrapper ">
-                <div class="gallery-swiper-slide swiper-slide">
+            <ul class="swiper-wrapper ">
+                <li class="gallery-swiper-slide swiper-slide">
                     <img src="images/gallery-slide1.jpg" alt="" class="swiper-slide__photo">
-                </div>
-                <div class="gallery-swiper-slide swiper-slide">
+                </li>
+                <li class="gallery-swiper-slide swiper-slide">
                     <img src="images/gallery-slide2.jpg" alt="" class="swiper-slide__photo">
-                </div>
-                <div class="gallery-swiper-slide swiper-slide">
+                </li>
+                <li class="gallery-swiper-slide swiper-slide">
                     <img src="images/gallery-slide3.jpg" alt="" class="swiper-slide__photo">
-                </div>
-                <div class="gallery-swiper-slide swiper-slide">
+                </li>
+                <li class="gallery-swiper-slide swiper-slide">
                     <img src="images/gallery-slide4.jpg" alt="" class="swiper-slide__photo">
-                </div>
-                <div class="gallery-swiper-slide swiper-slide">
+                </li>
+                <li class="gallery-swiper-slide swiper-slide">
                     <img src="images/gallery-slide5.jpg" alt="" class="swiper-slide__photo">
-                </div>
-            </div>
-            <div class="swiper-button-prev"></div>
-            <div class="swiper-button-next"></div>
+                </li>
+            </ul>
         </div>
     </div>
 </section>
@@ -181,19 +175,28 @@
                     <use href="images/icons.svg#icon-spoon"></use>
                 </svg>
             </div>
-            <div class="sample-title">questions remain?</div>
+            <div class="sample-title  sample-title_retreat">questions remain?</div>
             <p class="sample-text sample-text_retreat">And never miss latest Updates!</p>
             <form action="" autocomplete="on" class="questions-form">
-                <label class="questions-form__item-label" for="name">Ім'я</label>
-                <input id="name" class="questions-form__item-input" type="text" placeholder="Введіть ім'я">
-                <label class="questions-form__item-label" for="email">Почта</label>
-                <input id="email" class="questions-form__item-input " type="email"
-                       placeholder="Адреса електронної пошти">
-                <label class="questions-form__item-label" for="phone">Телефон</label>
-                <input id="phone" class="questions-form__item-input " type="tel" placeholder="Телефон">
-                <label class="questions-form__item-label" for="message">Повідомлення</label>
-                <textarea id="message" class="questions-form__item-input " cols="30" rows="10"
-                          placeholder="Повідомлення"></textarea>
+                <div class="questions-form__item">
+                    <label class="questions-form__item-label" for="name">Ім'я</label>
+                    <input id="name" class="questions-form__item-input" type="text" placeholder="Введіть ім'я">
+                </div>
+
+                <div class="questions-form__item">
+                    <label class="questions-form__item-label" for="email">Почта</label>
+                    <input id="email" class="questions-form__item-input " type="email"
+                           placeholder="Адреса електронної пошти">
+                </div>
+                <div class="questions-form__item">
+                    <label class="questions-form__item-label" for="phone">Телефон</label>
+                    <input id="phone" class="questions-form__item-input " type="tel" placeholder="Телефон">
+                </div>
+                <div class="questions-form__item">
+                    <label class="questions-form__item-label" for="message">Повідомлення</label>
+                    <textarea id="message" class="questions-form__item-input questions-form__item-input_width" cols="30" rows="10"
+                              placeholder="Повідомлення"></textarea>
+                </div>
                 <button class="sample-link" type="submit">Надіслати</button>
             </form>
         </div>
@@ -204,18 +207,19 @@
     <div class="footer-inner">
         <div class="footer-inner-content">
             <a href="#" class="back-to-top">
-                <svg width="32px" height="32px">
-                    <use href="images/icons.svg#icon-icon-instagram"></use>
-                </svg>
-                <p class="back-to-top__text">TOP</p>
+                <img src="images/back-to-top__stick-icon.png" alt=""
+                     class="back-to-top__stick-icon">
+                <span class="back-to-top__text">TOP</span>
             </a>
             <div class="footer-content-container">
                 <div class="footer-subtitle">Contact Us</div>
-                <div class="footer-text">пл. Свободи 9А, Глухів, Сумська область, Україна</div>
-                <div class="footer-text">+380 96 0388 338</div>
+                <a href="#">
+                    <address class="footer-content-container__text">пл. Свободи 9А, Глухів, Сумська область, Україна</address>
+                </a>
+                <a href="tel:+380960388338" class="footer-content-container__text">+380 96 0388 338</a>
             </div>
             <div class="container-brooklyn">
-                <h2 class="sample-title sample-title_footer-indentation">BROOKLYN</h2>
+                <a href="#" class="sample-title sample-title_footer-indentation">BROOKLYN</a>
                 <a href="#" class="container-brooklyn__social">
                     <svg width="32px" height="32px">
                         <use href="images/icons.svg#icon-icon-instagram"></use>
