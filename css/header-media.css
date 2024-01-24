@@ -28,9 +28,8 @@
         padding: 0px 30px;
     }
 
-
-    .header-inner__logo {
-        font-size: 35px;
+    .menu-list {
+        gap: 12px;
     }
 
     .menu-list__link, .menu-widget {
@@ -48,14 +47,6 @@
         padding: 9px 0;
     }
 
-    .header-inner__logo {
-        font-size: 26px;
-    }
-
-    .menu-widget {
-        font-size: 10px;
-    }
-
     .menu-list__link, .menu-widget__phone-number, .menu-widget__stick {
         display: none;
     }
@@ -65,18 +56,6 @@
 
     .container {
         padding: 0px 15px;
-    }
-
-    .header-inner {
-        padding: 0px 0;
-    }
-
-    .header-inner__logo {
-        font-size: 16px;
-    }
-
-    .menu-widget {
-        font-size: 8px;
     }
 
 

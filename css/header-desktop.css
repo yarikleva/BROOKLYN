@@ -19,16 +19,12 @@ body {
     align-items: center;
 }
 
-.header_background {
-    background-color: var(--black2);
+.header-inner__logo {
+    padding: 10px;
 }
 
-.header-inner__logo {
-    font-family: 'Cormorant Upright', sans-serif;
-    font-size: 44px;
-    line-height: 130%;
-    font-weight: 700;
-    letter-spacing: 1.76px;
+.header_background {
+    background-color: var(--black2);
 }
 
 .menu-list {
