@@ -21,30 +21,19 @@ body {
     color: var(--white);
     margin: 0;
     padding: 0;
-
-
 }
-
 
 ::selection {
     color: var(--white);
 }
 
-img,
-picture {
+img {
     display: block;
-    shape-margin: 0.75rem;
-    max-width: 100%;
     height: auto;
-    font-style: italic;
-    vertical-align: middle;
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 
 html {
     scroll-behavior: smooth;
-
 }
 
 .list {
@@ -57,7 +46,7 @@ html {
     margin: 0;
 }
 
-ul {
+ul, ol {
     list-style: none;
     padding: 0;
     margin: 0;
@@ -77,15 +66,14 @@ a {
     color: var(--white);
     cursor: pointer;
     text-decoration: none;
+    display: inline-block;
 }
-
 
 button{
     cursor: pointer;
     border: none;
     display: block;
 }
-
 
 .container {
     padding: 0 120px;
@@ -94,7 +82,6 @@ button{
     position: relative;
 }
 
-
-.title{
+.title {
     font-family: 'Cormorant Upright', serif;
 }

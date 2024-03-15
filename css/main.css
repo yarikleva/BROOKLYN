@@ -6,9 +6,8 @@
 @import "gallery-desktop.css";
 @import "questions-desktop.css";
 @import "footer-desktop.css";
+
 @import "contact-us-desktop.css";
 @import "location-desktop.css";
 
-
-@import "header-media.css";
-@import "hero-media.css";
+@import "menu.css";

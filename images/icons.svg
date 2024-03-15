@@ -9,9 +9,6 @@
 <symbol id="icon-bar-vector2" viewBox="0 0 13 32">
 <path stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" stroke-width="0.5246" d="M0.525 32v-32"></path>
 </symbol>
-<symbol id="icon-big-stick" viewBox="0 0 0 32">
-<path stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" stroke-width="0.1148" d="M0.077 32v-32"></path>
-</symbol>
 <symbol id="icon-contack-us-vector1" viewBox="0 0 8 32">
 <path stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" stroke-width="0.1148" d="M0.077 32v-32"></path>
 </symbol>
@@ -75,6 +72,12 @@
 </symbol>
 <symbol id="icon-navigation-border2" viewBox="0 0 0 32">
 <path stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" stroke-width="0.1148" d="M0.077 32v-32"></path>
+</symbol>
+<symbol id="icon-menu-full" viewBox="0 0 32 32">
+<path fill="none" stroke="#fff" style="stroke: var(--color1, #fff)" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2" d="M30.857 4.572h-29.714M30.857 16h-29.714M30.857 27.429h-29.714"></path>
+</symbol>
+<symbol id="icon-menu-with-bevel" viewBox="0 0 32 32">
+<path fill="none" stroke="#fff" style="stroke: var(--color1, #fff)" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2" d="M30.857 4.572h-29.714M30.857 16h-22.457M30.857 27.429h-18.057"></path>
 </symbol>
 
 </defs>

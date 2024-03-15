@@ -7,3 +7,14 @@ const swiper = new Swiper('.gallery-swiper', {
     },
     speed: 800,
 });
+
+document.getElementById('openMenu').addEventListener('click', function() {
+    document.getElementById('menuOverlay').style.display = 'block';
+    document.body.classList.add('menu-open');
+});
+
+document.getElementById('closeMenu').addEventListener('click', function() {
+    document.getElementById('menuOverlay').style.display = 'none';
+    document.body.classList.remove('menu-open');
+});
+
